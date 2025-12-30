@@ -58,6 +58,35 @@
   .coin{font-size:22px;margin:10px 0}
 </style>
 </head>
+
+<section id="casino">
+  <h2>🎮 Demo Casino</h2>
+  <div class="coin">Coin: <span id="coin">1000</span></div>
+
+  <!-- SLOT -->
+  <div class="game">
+    <h3>🎰 Slot</h3>
+    <button onclick="slot()">SPIN</button>
+    <p id="slotResult"></p>
+  </div>
+
+  <!-- DICE -->
+  <div class="game">
+    <h3>🎲 Dice</h3>
+    <button onclick="dice()">ROLL</button>
+    <p id="diceResult"></p>
+  </div>
+
+  <!-- CARDS -->
+  <div class="game">
+    <h3>🃏 High Card</h3>
+    <button onclick="card()">DRAW</button>
+    <p id="cardResult"></p>
+  </div>
+
+  <small>Play-Money Only • No Real Cash</small>
+</section>
+
 <body>
 
 <div class="box">
