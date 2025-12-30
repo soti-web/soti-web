@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  z-index: 10;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.menu-icon, .user {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* MENU */
+.menu {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background: #111;
+  display: none;
+  flex-direction: column;
+}
+
+.menu a {
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  border-bottom: 1px solid #222;
+}
+
+.menu a:hover {
+  background: #222;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d") center/cover no-repeat;
+}
+
+.overlay {
+  height: 100%;
+  background: rgba(0,0,0,0.65);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 80px 20px 40px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btn {
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn.outline {
+  border: 2px solid white;
+  color: white;
+}
+
+.btn.filled {
+  background: white;
+  color: black;
+}
