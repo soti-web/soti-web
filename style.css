@@ -95,3 +95,31 @@ h1 {
   background: white;
   color: black;
 }
+
+#casino{
+  max-width:400px;
+  margin:40px auto;
+  padding:20px;
+  background:#0b0b0b;
+  color:#fff;
+  text-align:center;
+  border-radius:14px;
+}
+.game{
+  margin:20px 0;
+  padding:15px;
+  border:1px solid #333;
+  border-radius:10px;
+}
+button{
+  padding:10px 18px;
+  border:0;
+  border-radius:8px;
+  background:#e91e63;
+  color:#fff;
+  font-size:15px;
+}
+.coin{
+  font-size:22px;
+  margin-bottom:20px;
+}
