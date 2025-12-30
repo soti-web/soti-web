@@ -44,3 +44,50 @@
 <script src="script.js"></script>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Demo Casino</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body{background:#0b0b0b;color:#fff;font-family:Arial;text-align:center}
+  .box{max-width:360px;margin:40px auto;padding:20px;border:1px solid #333;border-radius:12px}
+  button{padding:12px 18px;border:0;border-radius:8px;background:#e91e63;color:#fff;font-size:16px}
+  .coin{font-size:22px;margin:10px 0}
+</style>
+</head>
+<body>
+
+<div class="box">
+  <h2>🎰 Demo Casino</h2>
+  <div class="coin">Coin: <span id="coin">1000</span></div>
+  <button onclick="spin()">SPIN</button>
+  <p id="result"></p>
+  <small>Play-Money Only • No Real Cash</small>
+</div>
+
+<script>
+let coin = 1000;
+
+function spin(){
+  if(coin < 50){
+    document.getElementById('result').innerText = "Coin نیت 😅";
+    return;
+  }
+  coin -= 50; // bet (play-money)
+  const win = Math.random() < 0.35; // 35% win
+  if(win){
+    const prize = 150;
+    coin += prize;
+    document.getElementById('result').innerText = "بردیت! +" + prize;
+  } else {
+    document.getElementById('result').innerText = "باختیت!";
+  }
+  document.getElementById('coin').innerText = coin;
+}
+</script>
+
+</body>
+</html>
