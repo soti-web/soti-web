@@ -112,22 +112,23 @@ img {
 
 /*fonti rudaw*/
 
+@font-face {
+  font-family: 'Rudaw';
+  src: url('../assets/webfonts/rudawbolad.ttf') format('truetype');
+}
+
 body {
-  background: #ffffff;
-  font-family: 'Rudaw', sans-serif;
-  overflow-x: hidden;
+  font-family: 'rudawbold', sans-serif;
+  text-align: right;
+}
+
+.kurdi-font {
   direction: rtl;
   text-align: right;
 }
 
-@font-face {
-  font-family: 'Rudaw';
-  src: url('../fonts/Rudaw.ttf') format('truetype');
-}
-
-body {
-  font-family: 'Rudaw', sans-serif;
-  text-align: right;
+.owl-carousel {
+  direction: ltr;
 }
 
 /* 
