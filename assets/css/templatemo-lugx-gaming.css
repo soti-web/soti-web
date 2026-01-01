@@ -113,8 +113,8 @@ img {
 /*fonti rudaw*/
 
 @font-face {
-  font-family: 'Rudaw';
-  src: url('../assets/webfonts/rudawbolad.ttf') format('truetype');
+  font-family: 'rudawbold';
+  src: url('../assets/webfonts/rudawbold.ttf') format('truetype');
 }
 
 body {
