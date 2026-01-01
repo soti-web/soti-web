@@ -109,6 +109,27 @@ img {
   overflow: hidden;
 }
 
+
+/*fonti rudaw*/
+
+body {
+  background: #ffffff;
+  font-family: 'Rudaw', sans-serif;
+  overflow-x: hidden;
+  direction: rtl;
+  text-align: right;
+}
+
+@font-face {
+  font-family: 'Rudaw';
+  src: url('../fonts/Rudaw.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Rudaw', sans-serif;
+  text-align: right;
+}
+
 /* 
 ---------------------------------------------
 Global Styles
