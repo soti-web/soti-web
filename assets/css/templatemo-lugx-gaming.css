@@ -112,6 +112,14 @@ img {
 
 /*fonti rudaw*/
 
+body {
+  background: #ffffff;
+  font-family: 'rudawbold', sans-serif;
+  overflow-x: hidden;
+  direction: rtl;
+  text-align: right;
+}
+
 @font-face {
   font-family: 'rudawbold';
   src: url('../assets/webfonts/rudawbold.ttf') format('truetype');
