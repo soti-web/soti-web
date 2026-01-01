@@ -115,7 +115,7 @@ img {
 /* ===== LOAD KURDI FONT ===== */
 @font-face {
   font-family: 'rudawbold';
-  src: url('../assets/webfonts/rudawbold.ttf') format('truetype');
+  src: url('../webfonts/rudawbold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
