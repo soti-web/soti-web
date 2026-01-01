@@ -112,6 +112,15 @@ img {
 
 /*fonti rudaw*/
 
+/* ===== LOAD KURDI FONT ===== */
+@font-face {
+  font-family: 'rudawbold';
+  src: url('../assets/webfonts/rudawbold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ===== GLOBAL STYLE ===== */
 body {
   background: #ffffff;
   font-family: 'rudawbold', sans-serif;
@@ -120,21 +129,14 @@ body {
   text-align: right;
 }
 
-@font-face {
-  font-family: 'rudawbold';
-  src: url('../assets/webfonts/rudawbold.ttf') format('truetype');
-}
-
-body {
-  font-family: 'rudawbold', sans-serif;
-  text-align: right;
-}
-
+/* ===== KURDI TEXT CLASS ===== */
 .kurdi-font {
+  font-family: 'rudawbold', sans-serif;
   direction: rtl;
   text-align: right;
 }
 
+/* ===== FIX FOR OWL CAROUSEL ===== */
 .owl-carousel {
   direction: ltr;
 }
